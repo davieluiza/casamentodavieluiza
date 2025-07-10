@@ -1,0 +1,35 @@
+h1 {
+
+    font-family: "Great Vibes", cursive;  
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+div {
+    padding: 1rem;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #814753;
+    align-items: center;
+}
+
+ul{
+    font-family: "Lora", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #D8A7B1;
+}
+
+a:not(:last-child){
+    margin-right: 1rem;
+}
+
+a:hover{
+    color: #A6A07A;
+}
