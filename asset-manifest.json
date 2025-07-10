@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/casamentodavieluiza/static/css/main.b1886f98.css",
+    "main.js": "/casamentodavieluiza/static/js/main.bcb52284.js",
+    "index.html": "/casamentodavieluiza/index.html",
+    "main.b1886f98.css.map": "/casamentodavieluiza/static/css/main.b1886f98.css.map",
+    "main.bcb52284.js.map": "/casamentodavieluiza/static/js/main.bcb52284.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1886f98.css",
+    "static/js/main.bcb52284.js"
+  ]
+}
