@@ -1,4 +1,5 @@
 import Header from "./Components/Header";
+import ImageSection from "./Components/ImageSection";
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
         <Header />
       </header>
       <main>
-        
+        <ImageSection />
       </main>
     </div>
   );
