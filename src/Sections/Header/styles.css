@@ -1,12 +1,10 @@
 h1 {
-
-    font-family: "Great Vibes", cursive;  
+    font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-size: 3rem;
 }
 
-
-.header{
+.header {
     padding: 1rem;
     display: flex;
     flex-direction: row;
@@ -15,19 +13,33 @@ h1 {
     align-items: center;
 }
 
-ul{
+ul {
     font-family: "Lora", sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
     color: #D8A7B1;
 }
 
-a:not(:last-child){
+a:not(:last-child) {
     margin-right: 1rem;
 }
 
-a:hover{
+a:hover {
     color: #A6A07A;
+}
+
+@media (max-width: 600px) {
+    ul {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .header {
+        justify-content: center;
+    }
 }

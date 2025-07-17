@@ -1,6 +1,4 @@
-import React from "react";
 import "./styles.css"
-import { Box } from "@chakra-ui/react";
 
 const Header = () => {
   return (

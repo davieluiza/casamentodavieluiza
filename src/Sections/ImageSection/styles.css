@@ -3,7 +3,7 @@
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
+    position: ab;
     padding: 10rem;
 }
 
@@ -19,4 +19,14 @@
     font-size: 2rem;
     color: #E4CFA0;
     text-align: center;
+}
+
+@media(max-width: 600px){
+    .image-background {
+        padding: 1rem;
+    }
+
+    .image-text{
+        font-size: 1rem;
+    }
 }
