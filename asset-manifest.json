@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/casamentodavieluiza/static/css/main.f5a2de1b.css",
-    "main.js": "/casamentodavieluiza/static/js/main.42fd08f5.js",
+    "main.css": "/casamentodavieluiza/static/css/main.1120fe7f.css",
+    "main.js": "/casamentodavieluiza/static/js/main.d16935e1.js",
     "static/media/jovem-tocando-o-cabelo-de-sua-namorada.png": "/casamentodavieluiza/static/media/jovem-tocando-o-cabelo-de-sua-namorada.24545290702aac1099f8.png",
     "index.html": "/casamentodavieluiza/index.html",
-    "main.f5a2de1b.css.map": "/casamentodavieluiza/static/css/main.f5a2de1b.css.map",
-    "main.42fd08f5.js.map": "/casamentodavieluiza/static/js/main.42fd08f5.js.map"
+    "main.1120fe7f.css.map": "/casamentodavieluiza/static/css/main.1120fe7f.css.map",
+    "main.d16935e1.js.map": "/casamentodavieluiza/static/js/main.d16935e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5a2de1b.css",
-    "static/js/main.42fd08f5.js"
+    "static/css/main.1120fe7f.css",
+    "static/js/main.d16935e1.js"
   ]
 }
