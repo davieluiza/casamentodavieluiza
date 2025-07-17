@@ -1,6 +1,7 @@
 import WeddingDate from "./Sections/WeddingDate";
 import Header from "./Sections/Header";
 import ImageSection from "./Sections/ImageSection";
+import { History } from "./Sections/History";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <main>
         <ImageSection />
         <WeddingDate />
+        <History />
       </main>
     </div>
   );
