@@ -20,12 +20,12 @@ export default function WeddingDate() {
           ) : (
             <Card text={Math.trunc(months)} legend={"meses"} />
           )}
-          <p className="card-text">:</p>
-          {days === 0 ? "" : <Card text={remainingDays} legend={"dias"} />}
-          <p className="card-text">:</p>
+          {/* <p className="card-text">:</p> */}
+          {remainingDays === 0 ? "" : <Card text={remainingDays} legend={"dias"} />}
+          {/* <p className="card-text">:</p> */}
           {hours === 0 ? "" : <Card text={hours} legend={"horas"} />}
           {minutes === 0 ? "" : <Card text={minutes} legend={"minutos"} />}
-          <p className="card-text">:</p>
+          {/* <p className="card-text">:</p> */}
           <Card text={seconds} legend={"segundos"} />
         </div>
       );
@@ -36,7 +36,7 @@ export default function WeddingDate() {
     <div className="weddingDate">
       <Text>É isso, vamos nos casar!</Text>
       <h1 className="date">17 de Janeiro de 2026</h1>
-      <Text color="#D8A7B1">Tucuruí - PA</Text>
+      <Text color="#92A8D1">Tucuruí - PA</Text>
       <div className="countdown-area">
         <Text>Faltam</Text>
         <Countdown date={date} renderer={renderer} />

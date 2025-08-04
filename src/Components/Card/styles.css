@@ -7,7 +7,7 @@
 .card {
     padding: 2rem;
     margin: 0 1rem;
-    background-color: #D8A7B1;
+    background-color: #D9D9D9;
     border-radius: 2rem;
 }
 
@@ -18,7 +18,8 @@
 
 .captionSmall {
     font-family: "Lora", sans-serif;
-    color: #A6A07A;
+    color: #92A8D1
+;
 }
 
 @media (max-width: 600px) {
@@ -27,11 +28,12 @@
         margin: 0 0.25rem;
         border-radius: 1rem;
     }
-    .card-text{
+
+    .card-text {
         font-size: 1rem;
     }
 
-    .captionSmall{
+    .captionSmall {
         font-size: 0.6rem;
     }
 }
