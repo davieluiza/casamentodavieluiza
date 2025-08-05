@@ -1,4 +1,3 @@
-import React from "react";
 import "./styles.css";
 import { Text } from "../../Components/Text";
 import { Space } from "../../Components/Space";
@@ -30,7 +29,7 @@ export const History = () => {
         do nosso grande dia.
       </Text>
       <Space space={"0.5rem"} />
-      <Text textIndent={textIndent} >
+      <Text textIndent={textIndent}>
         Prepare seu coração, escolha seu look e venha celebrar conosco o amor, a
         alegria e a promessa de um recomeço a dois. 💍💗
       </Text>
