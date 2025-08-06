@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import Container from "../../Components/Container";
 
 export const Photos = () => {
-  return (
-    <div>
-        
-    </div>
-  )
-}
+  return <Container>
+    Photos
+  </Container>;
+};

@@ -1,13 +1,14 @@
 import "./styles.css";
 import { Text } from "../../Components/Text";
 import { Space } from "../../Components/Space";
+import { Title } from "../../Components/Title";
 
 export const History = () => {
   const textIndent = window.innerWidth < 600 ? "2rem" : "8rem";
 
   return (
     <div className="history">
-      <h1 className="title">Nossa história</h1>
+      <Title text="Nós dois" />
       <p className="verse">
         “Assim, eles já não são dois, mas sim uma só carne. Portanto, o que Deus
         uniu, ninguém o separe."
