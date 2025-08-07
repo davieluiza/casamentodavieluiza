@@ -1,7 +1,9 @@
 import Countdown from "react-countdown";
 import "./styles.css";
-import { Card } from "../../Components/Card";
-import { Text } from "../../Components/Text";
+import Card from "../../Components/Card";
+import Text from "../../Components/Text";
+import Container from "../../Components/Container";
+import Title from "../../Components/Title";
 
 export default function WeddingDate() {
   const date = new Date("2026-01-17T16:00:00");
@@ -20,12 +22,14 @@ export default function WeddingDate() {
           ) : (
             <Card text={Math.trunc(months)} legend={"meses"} />
           )}
-          {/* <p className="card-text">:</p> */}
-          {remainingDays === 0 ? "" : <Card text={remainingDays} legend={"dias"} />}
-          {/* <p className="card-text">:</p> */}
+          {remainingDays === 0 ? (
+            ""
+          ) : (
+            <Card text={remainingDays} legend={"dias"} />
+          )}
           {hours === 0 ? "" : <Card text={hours} legend={"horas"} />}
           {minutes === 0 ? "" : <Card text={minutes} legend={"minutos"} />}
-          {/* <p className="card-text">:</p> */}
+
           <Card text={seconds} legend={"segundos"} />
         </div>
       );
@@ -34,14 +38,16 @@ export default function WeddingDate() {
 
   return (
     <div className="weddingDate">
-      <Text>É isso, vamos nos casar!</Text>
-      <h1 className="date">17 de Janeiro de 2026</h1>
-      <Text color="#92A8D1">Tucuruí - PA</Text>
-      <div className="countdown-area">
-        <Text>Faltam</Text>
-        <Countdown date={date} renderer={renderer} />
-        <Text>Para essa data marcante em nossas vidas </Text>
-      </div>
+      <Container>
+        <Text>É isso, vamos nos casar!</Text>
+        <Title text="17 de Janeiro de 2026" />
+        <Text color="#92A8D1">Tucuruí - PA</Text>
+        <div className="countdown-area">
+          <Text>Faltam</Text>
+          <Countdown date={date} renderer={renderer} />
+          <Text>Para essa data marcante em nossas vidas </Text>
+        </div>
+      </Container>
     </div>
   );
 }

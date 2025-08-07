@@ -1,7 +1,7 @@
 import "./styles.css";
-import { Text } from "../../Components/Text";
-import { Space } from "../../Components/Space";
-import { Title } from "../../Components/Title";
+import Text from "../../Components/Text";
+import Space from "../../Components/Space";
+import Title from "../../Components/Title";
 
 export const History = () => {
   const textIndent = window.innerWidth < 600 ? "2rem" : "8rem";

@@ -1,6 +1,6 @@
 .weddingDate {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -8,14 +8,14 @@
 }
 
 .date {
-    margin-top: 2rem;
+    margin-top: 1rem;
     color: #E91E63;
     font-size: 8rem;
     margin-bottom: 2rem;
 }
 
 .countdown-area {
-    margin-top: 3rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
     flex-direction: column;

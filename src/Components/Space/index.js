@@ -1,5 +1,7 @@
 import React from "react";
 
-export const Space = ({ space }) => {
+const Space = ({ space }) => {
   return <div style={{ margin: space }}></div>;
 };
+
+export default Space;

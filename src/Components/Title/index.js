@@ -1,5 +1,7 @@
-import "./styles.css"
+import "./styles.css";
 
-export const Title = ({ text }) => {
-  return <div className="title">{text}</div>;
+const Title = ({ text }) => {
+  return <h1 className="title">{text}</h1>;
 };
+
+export default Title;

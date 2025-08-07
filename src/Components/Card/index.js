@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-export const Card = ({ text, legend }) => {
+const Card = ({ text, legend }) => {
   function formatWithZero(value) {
     return value.toString().padStart(2, 0);
   }
@@ -15,3 +15,5 @@ export const Card = ({ text, legend }) => {
     </div>
   );
 };
+
+export default Card;
