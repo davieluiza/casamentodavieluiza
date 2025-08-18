@@ -1,16 +1,10 @@
 .history{
     background-color: #fff;
-    padding: 2rem 20rem;
+    padding: 2rem 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.title{
-    font-size: 6rem;
-    color: #E91E63;
-    margin-bottom: 2rem;    
 }
 
 .verse{
@@ -23,11 +17,7 @@
 
 @media(max-width: 600px){
     .history{
-        padding: 1rem 2rem;
-    }
-
-    .title{
-        font-size: 3rem;
+        padding: 0.2rem 0.7rem;
     }
 
     .verse{

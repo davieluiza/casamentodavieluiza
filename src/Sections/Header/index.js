@@ -3,7 +3,7 @@ import "./styles.css"
 const Header = () => {
   return (
     <div className="header">
-      <h1>Davi e Luiza  </h1>
+      <h1 className="h1-title">Davi e Luiza  </h1>
       <ul>
         <a href="#">home</a>
         <a href="#">nossa história</a>

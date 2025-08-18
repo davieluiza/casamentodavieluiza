@@ -2,8 +2,6 @@ import WeddingDate from "./Sections/WeddingDate";
 import Header from "./Sections/Header";
 import ImageSection from "./Sections/ImageSection";
 import { History } from "./Sections/History";
-import { Photos } from "./Sections/Photos";
-import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import TheEvent from "./Sections/TheEvent";
 

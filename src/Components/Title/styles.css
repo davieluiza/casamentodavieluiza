@@ -1,6 +1,13 @@
 .title{
-    font-size: 6rem;
+    font-size: 5rem;
     color: #E91E63;
     font-family: "Great Vibes", cursive;
     text-align: center;
+    font-weight: 400;
+}
+
+@media(max-width: 600px){
+    .title{
+        font-size: 2rem;
+    }
 }

@@ -1,12 +1,13 @@
-.text {
+.text-italic {
     font-family: "Lora", sans-serif;
     color: #2e2e2e;
     font-size: 1.5rem;
     text-align: justify;
+    font-style: italic;
 }
 
-@media(max-width: 600px){
-    .text{
+@media(max-width: 600px) {
+    .text-italic {
         font-size: 0.75rem;
     }
 }
