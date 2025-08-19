@@ -1,7 +1,9 @@
 .h1-title {
     font-family: "Great Vibes", cursive;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 3rem;
+    color: #E91E63;
+    align-self: center;
 }
 
 .header {
@@ -11,6 +13,11 @@
     justify-content: space-between;
     color: #E91E63;
     align-items: center;
+}
+
+.burger {
+    background-color: #6A82B0;
+    color: black;
 }
 
 ul {
@@ -30,16 +37,20 @@ a:hover {
     color: #6A82B0;
 }
 
+.burger {
+    display: none;
+}
+
 @media (max-width: 600px) {
     ul {
         display: none;
     }
 
-    h1 {
-        font-size: 2rem;
+    .h1-title {
+        font-size: 1.5rem;
     }
 
-    .header {
-        justify-content: center;
+    .dropdown-button {
+        font-size: 0.75rem;
     }
 }

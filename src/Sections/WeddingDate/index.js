@@ -2,7 +2,7 @@ import Countdown from "react-countdown";
 import "./styles.css";
 import Card from "../../Components/Card";
 import Text from "../../Components/Text";
-import Container from "../../Components/Container";
+import Container from "../../Components/Container2";
 import Title from "../../Components/Title";
 
 export default function WeddingDate() {

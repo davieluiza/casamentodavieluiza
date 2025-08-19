@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import Container from "../../Components/Container";
+import Container from "../../Components/Container2";
 import Title from "../../Components/Title";
 import Text from "../../Components/Text";
 import ItalicText from "../../Components/ItalicText";
@@ -19,7 +19,7 @@ const TheEvent = () => {
       </ItalicText>
       <Space space={"1rem"} />
       <iframe
-        className=""
+        title="local"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.388989534125!2d-49.68446126175109!3d-3.841595517707727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92bf8b208cc20473%3A0x3d5481c41ce2c495!2sT%C3%A1%20Amarrado!5e0!3m2!1spt-BR!2sbr!4v1755528778037!5m2!1spt-BR!2sbr"
         width={window.screen.width * 0.8}
         height={window.screen.height * 0.4}
