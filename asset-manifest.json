@@ -1,17 +1,25 @@
 {
   "files": {
-    "main.css": "/casamentodavieluiza/static/css/main.e569f49e.css",
-    "main.js": "/casamentodavieluiza/static/js/main.b9bd2f30.js",
+    "main.css": "/casamentodavieluiza/static/css/main.fc116821.css",
+    "main.js": "/casamentodavieluiza/static/js/main.f7aadadb.js",
+    "static/media/dl1.webp": "/casamentodavieluiza/static/media/dl1.ebcc0e26db201c63fcd2.webp",
+    "static/media/dl8.webp": "/casamentodavieluiza/static/media/dl8.5ea00094f0d8f0f774f6.webp",
     "static/media/jovem-tocando-o-cabelo-de-sua-namorada.png": "/casamentodavieluiza/static/media/jovem-tocando-o-cabelo-de-sua-namorada.24545290702aac1099f8.png",
-    "static/media/revicons.eot": "/casamentodavieluiza/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/casamentodavieluiza/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/casamentodavieluiza/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/dl7.webp": "/casamentodavieluiza/static/media/dl7.e8384780f07c03db5ec7.webp",
+    "static/media/dl4.webp": "/casamentodavieluiza/static/media/dl4.d734fa01b1a97c2baf23.webp",
+    "static/media/dl11.webp": "/casamentodavieluiza/static/media/dl11.1989f952f22848319520.webp",
+    "static/media/dl9.webp": "/casamentodavieluiza/static/media/dl9.88c244acf95eb97a8269.webp",
+    "static/media/dl5.webp": "/casamentodavieluiza/static/media/dl5.426708eaad237c32eea9.webp",
+    "static/media/dl3.webp": "/casamentodavieluiza/static/media/dl3.c68dd6ae61e97838c3d3.webp",
+    "static/media/dl10.webp": "/casamentodavieluiza/static/media/dl10.1e9b79ac1574dc406a39.webp",
+    "static/media/dl2.webp": "/casamentodavieluiza/static/media/dl2.447b39cc4f44be5ac435.webp",
+    "static/media/dl6.webp": "/casamentodavieluiza/static/media/dl6.eb146e7f8d34d1f5c652.webp",
     "index.html": "/casamentodavieluiza/index.html",
-    "main.e569f49e.css.map": "/casamentodavieluiza/static/css/main.e569f49e.css.map",
-    "main.b9bd2f30.js.map": "/casamentodavieluiza/static/js/main.b9bd2f30.js.map"
+    "main.fc116821.css.map": "/casamentodavieluiza/static/css/main.fc116821.css.map",
+    "main.f7aadadb.js.map": "/casamentodavieluiza/static/js/main.f7aadadb.js.map"
   },
   "entrypoints": [
-    "static/css/main.e569f49e.css",
-    "static/js/main.b9bd2f30.js"
+    "static/css/main.fc116821.css",
+    "static/js/main.f7aadadb.js"
   ]
 }
