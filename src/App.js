@@ -2,7 +2,6 @@ import WeddingDate from "./Sections/WeddingDate";
 import Header from "./Sections/Header";
 import ImageSection from "./Sections/ImageSection";
 import History from "./Sections/History";
-import Photos from "./Sections/Photos";
 import TheEvent from "./Sections/TheEvent";
 import Footer from "./Sections/Footer";
 import {ThemeProvider} from 'react-bootstrap';
@@ -18,7 +17,7 @@ function App() {
                     <ImageSection/>
                     <WeddingDate/>
                     <History/>
-                    <Photos/>
+                    {/*<Photos/>*/}
                     <TheEvent/>
                 </main>
                 <footer>

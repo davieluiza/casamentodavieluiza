@@ -5,7 +5,7 @@ const ItalicText = (props) => {
   return (
     <p
       className="text-italic"
-      style={{ color: props.color, textIndent: props.textIndent || "1rem" }}
+      style={{ color: props.color}}
     >
       {props.children}
     </p>

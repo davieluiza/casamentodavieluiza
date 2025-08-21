@@ -1,8 +1,10 @@
 import "./styles.css";
+import {Container} from "react-bootstrap";
 import Text from "../../Components/Text";
 import Space from "../../Components/Space";
 import Title from "../../Components/Title";
 import ItalicText from "../../Components/ItalicText";
+import ImageCarousel from "../../Components/ImageCarousel";
 
 export default function History() {
     const textIndent = window.innerWidth < 600 ? "2rem" : "8rem";
@@ -85,13 +87,22 @@ export default function History() {
                 leitor, queremos muito a sua presença em nossa celebração!
             </Text>
             <Space space={"0.5rem"}/>
-            <Space space={"1rem"}/>
-            <ItalicText>Quero um amor que resista ao tempo</ItalicText>
-            <ItalicText>Uma verdade pra abraçar pra sempre</ItalicText>
-            <ItalicText>Caminhada de bons sentimentos</ItalicText>
-            <ItalicText>Um coração que me entende</ItalicText>
-            <Space space={"0.5rem"}/>
+            <ItalicText>
+                Quero um amor que resista ao tempo <br/>
+                Uma verdade pra abraçar pra sempre <br/>
+                Caminhada de bons sentimentos <br/>
+                Um coração que me entende
+            </ItalicText>
             <ItalicText>Pra Sempre - Thiago Grulha</ItalicText>
+            <Container style={{
+                borderRadius: "4rem",
+                backgroundColor: "#FAFAFA",
+                boxShadow: "-1px 1px 13px -2px rgba(0,0,0,1)",
+            }}>
+                <ImageCarousel src={require.context("../../assets/namorando", true)}
+                               caption="foram 1 ano, 10 meses e 24 dias de namoro..."/>
+                <ImageCarousel src={require.context("../../assets/noivos", true)} caption="...até o nosso sim"/>
+            </Container>
         </div>
     );
 };
