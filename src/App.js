@@ -5,25 +5,27 @@ import History from "./Sections/History";
 import Photos from "./Sections/Photos";
 import TheEvent from "./Sections/TheEvent";
 import Footer from "./Sections/Footer";
-
+import {ThemeProvider} from 'react-bootstrap';
 
 function App() {
     return (
-        <div className="app">
-            <header className="App-header">
-                <Header/>
-            </header>
-            <main>
-                <ImageSection/>
-                <WeddingDate/>
-                <History/>
-                <Photos/>
-                <TheEvent/>
-            </main>
-            <footer>
-                <Footer/>
-            </footer>
-        </div>
+        <ThemeProvider>
+            <div className="app">
+                <header className="App-header">
+                    <Header/>
+                </header>
+                <main>
+                    <ImageSection/>
+                    <WeddingDate/>
+                    <History/>
+                    <Photos/>
+                    <TheEvent/>
+                </main>
+                <footer>
+                    <Footer/>
+                </footer>
+            </div>
+        </ThemeProvider>
     );
 }
 

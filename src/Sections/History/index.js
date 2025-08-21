@@ -85,11 +85,6 @@ export default function History() {
                 leitor, queremos muito a sua presença em nossa celebração!
             </Text>
             <Space space={"0.5rem"}/>
-            <Text textIndent={textIndent}>
-                Em um mundo onde relacionamentos se baseiam em estruturas frágeis,
-                procuramos nos firmar na Rocha que é Cristo. Se você leu até aqui caro
-                leitor, queremos muito a sua presença em nossa celebração!
-            </Text>
             <Space space={"1rem"}/>
             <ItalicText>Quero um amor que resista ao tempo</ItalicText>
             <ItalicText>Uma verdade pra abraçar pra sempre</ItalicText>
