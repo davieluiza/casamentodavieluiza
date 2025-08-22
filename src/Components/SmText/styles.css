@@ -1,0 +1,11 @@
+.sm-text{
+    font-family: "Lora", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+@media(max-width:500px){
+    .sm-text{
+        font-size: 0.60rem;
+    }
+}

@@ -1,3 +1,5 @@
+import SmText from "../../Components/SmText";
+
 export default function Footer() {
-    return (<p style={{textAlign: "center"}}> developed with ❤️ by Jovic</p>)
+    return (<SmText> developed with ❤️ by Jovic</SmText>);
 }

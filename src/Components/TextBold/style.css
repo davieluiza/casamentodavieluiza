@@ -1,0 +1,12 @@
+.text-bold {
+    font-weight: bold;
+    font-family: "Lora", sans-serif;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .text-bold {
+        font-size: 0.75rem;
+    }
+}

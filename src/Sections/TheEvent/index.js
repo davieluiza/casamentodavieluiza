@@ -1,32 +1,55 @@
 import React from "react";
-import {Container, Row, Col} from 'react-bootstrap';
+import {Row, Col, Container} from 'react-bootstrap';
 import "./styles.css";
 import Title from "../../Components/Title";
 import Text from "../../Components/Text";
-import ItalicText from "../../Components/ItalicText";
 import Space from "../../Components/Space";
+import TextBold from "../../Components/TextBold";
+import SmText from "../../Components/SmText";
 
 const TheEvent = () => {
     return (
-        <Container >
-            <Title text="Sobre o evento"/>
-            <Row className="justify-content-center">
-                <Col sm={12} lg={6}>
+        <Col style={{padding: "2rem"}}>
+            <Title text="O grande dia"/>
+            <Space space="2rem"/>
+            <Col xs={12} md={12} className="d-flex align-items-start justify-content-center">
+                <TextBold>Localização do evento</TextBold>
+            </Col>
+            <Row xs={12} md={12} className="d-flex align-items-center justify-content-center">
+                <div style={{
+                    aspectRatio: 1 / 1,
+                    width: "100%",
+                    maxWidth: 800,
+                }}>
                     <iframe
-                        title="local"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.388989534125!2d-49.68446126175109!3d-3.841595517707727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92bf8b208cc20473%3A0x3d5481c41ce2c495!2sT%C3%A1%20Amarrado!5e0!3m2!1spt-BR!2sbr!4v1755528778037!5m2!1spt-BR!2sbr"
+                        title="O grande dia"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.8553034265824!2d-49.68585072600444!3d-3.841222943754432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92bf8b208cc20473%3A0x3d5481c41ce2c495!2sT%C3%A1%20Amarrado!5e0!3m2!1spt-BR!2sbr!4v1755875317037!5m2!1spt-BR!2sbr"
                         width="100%"
                         height="100%"
+                        allowFullScreen={true}
                         style={{
-                            borderRadius: 16,
+                            borderRadius: "1rem",
                         }}
-                        allowFullScreen=""
                         loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade"
-                    />
+                        referrerPolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <Col className="d-flex align-items-baseline justify-content-center" sm="auto">
+                    <TextBold>Data:</TextBold>
+                    <Text>17 de Janeiro de 2025</Text>
+                    <Space space="1rem"/>
+                    <TextBold>Horário</TextBold>
+                    <Text>16h00</Text>
                 </Col>
+                <Container style={{padding: "0 4rem"}} fluid={true}>
+                    <Container style={{background: "yellow", borderRadius: "1rem", padding: "1rem"}} fluid={true}>
+                        <SmText>
+                            Devido ao local ser aberto e o período chuvoso em Tucuruí, poderá haver mau tempo
+                            durante a cerimônia, mas não se preocupe, temos um plano de contingência caso isso ocorra.
+                        </SmText>
+                    </Container>
+                </Container>
             </Row>
-        </Container>
+        </Col>
     );
 };
 
