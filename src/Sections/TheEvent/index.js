@@ -40,12 +40,12 @@ const TheEvent = () => {
                     <TextBold>Horário</TextBold>
                     <Text>16h00</Text>
                 </Col>
-                <Container style={{padding: "0 4rem"}} fluid={true}>
+                <Container fluid={true}>
                     <Container style={{background: "yellow", borderRadius: "1rem", padding: "1rem"}} fluid={true}>
-                        <SmText>
+                        <Text>
                             Devido ao local ser aberto e o período chuvoso em Tucuruí, poderá haver mau tempo
                             durante a cerimônia, mas não se preocupe, temos um plano de contingência caso isso ocorra.
-                        </SmText>
+                        </Text>
                     </Container>
                 </Container>
             </Row>
