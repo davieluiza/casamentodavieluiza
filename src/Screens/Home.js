@@ -6,21 +6,26 @@ import TheEvent from "../Sections/TheEvent";
 import Footer from "../Sections/Footer";
 
 export default function Home() {
-    return (
-        <div className="app">
-            <header className="App-header">
-                <Header/>
-            </header>
-            <main>
-                <ImageSection/>
-                <WeddingDate/>
-                <History/>
-                {/*<Photos/>*/}
-                <TheEvent/>
-            </main>
-            <footer>
-                <Footer/>
-            </footer>
-        </div>
-    )
+  return (
+    <div className="app">
+      <header className="App-header">
+        <Header />
+      </header>
+      <main>
+        <section id="home">
+          <ImageSection />
+        </section>
+        <section id="nossa-historia">
+          <WeddingDate />
+        </section>
+        <History />
+        <section id="sobre-o-evento">
+          <TheEvent />
+        </section>
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </div>
+  );
 }

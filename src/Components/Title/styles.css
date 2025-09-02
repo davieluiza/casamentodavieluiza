@@ -1,9 +1,10 @@
 .title{
-    font-size: 5rem;
+    margin: 0;
+    font-size: 6rem;
     color: #E91E63;
     font-family: "Great Vibes", cursive;
-    text-align: center;
-    font-weight: 400;
+    font-weight: 400;   
+    align-self: center;
 }
 
 @media(max-width: 600px){
