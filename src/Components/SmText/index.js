@@ -1,7 +1,7 @@
 import "./styles.css"
 
-export default function SmText({text}) {
+export default function SmText(props) {
     return (
-        <p className="sm-text">{text}</p>
+        <p className="sm-text">{props.children}</p>
     )
 }

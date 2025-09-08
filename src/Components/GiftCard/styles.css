@@ -1,11 +1,19 @@
 .btn-pink {
-    background-color: #E91E63;
-    color: white;
-    border: none;
-    border-radius: 0.7rem;
-    padding: 0.5rem 1.5rem
+    padding: 1rem;
+    border: 1px solid #E91E63;
+    border-radius: 1rem;
+    margin: 0;
+    width: 100%;
+    font-family: "Lora", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #E91E63;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .btn-pink:hover {
     background-color: #a91849;
+    color: white;
 }

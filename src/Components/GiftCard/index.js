@@ -1,19 +1,11 @@
-import {Button, Card} from "react-bootstrap";
-
 import "./styles.css";
-import MdText from "../MdText";
+import {MdArrowForward} from "react-icons/md";
 
-export default function GiftCard({image, title, value, link}) {
-    return (<Card style={{width: '18rem', backgroundColor: 'white'}}>
-        <Card.Img variant="top" src={image}/>
-        <Card.Body className="text-center">
-            <Card.Title>{title}</Card.Title>
-            <Card.Text>
-                <MdText text={value}/>
-            </Card.Text>
-            <Button className="btn-pink" href={link}>
-                Presentear
-            </Button>
-        </Card.Body>
-    </Card>);
+export default function GiftCard({value, link}) {
+    return (
+        <a href={link} className="btn-pink" target="_blank" rel="noreferrer">
+            {value}
+            <MdArrowForward/>
+        </a>
+    );
 }
