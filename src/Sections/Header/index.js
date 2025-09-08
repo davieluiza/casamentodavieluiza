@@ -6,11 +6,14 @@ import Title from "../../Components/Title";
 
 const Header = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary d-flex align-items-center">
+    <Navbar
+      expand="lg"
+      className="bg-body-tertiary d-flex align-items-center border-bottom shadow-sm"      
+    >
       <Container fluid className="d-flex justify-content-lg-between">
         <Navbar.Brand href="#home">
           <h1 className="h1-title">Davi e Luiza</h1>
-        </Navbar.Brand>
+        </Navbar.Brand> 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" aria-disabled={true}>
           <Nav className="ms-auto">

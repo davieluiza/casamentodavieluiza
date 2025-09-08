@@ -12,6 +12,7 @@ const Card = ({ text, legend }) => {
         <p className="card-text">{formatWithZero(text)}</p>
       </div>
       <p className="captionSmall">{legend}</p>
+      
     </div>
   );
 };
