@@ -29,16 +29,26 @@ export default function Gifting() {
                     </em>
                 </SmText>
             </Container>
-            <ListGroup className="p-2 mb-5 d-flex align-items-center">
-                <GiftCard value="R$ 50,00" link="https://mpago.li/1t3PjHT"/>
-                <GiftCard value="R$ 100,00" link="https://mpago.li/2AQQzBz"/>
-                <GiftCard value="R$ 150,00" link="https://mpago.li/1yUP4RR"/>
-                <GiftCard value="R$ 200,00" link="https://mpago.li/1i3uVw8"/>
-                <GiftCard value="R$ 250,00" link="https://mpago.la/2czKMfB"/>
-                <GiftCard value="R$ 300,00" link="https://mpago.la/1TcNxuN"/>
-                <GiftCard value="R$ 400,00" link="https://mpago.li/2JTzoPb"/>
-                <GiftCard value="Outro valor" link="http://link.mercadopago.com.br/dlcasorio"/>
-            </ListGroup>
+            <Container fluid style={
+                {
+                    border: "1px solid #E91E63",
+                    maxWidth: "600px",
+                    paddingTop: "1rem",
+                    borderRadius: "1rem",
+                }
+            }>
+                <SmText>Clique em um dos valores para presentear</SmText>
+                <ListGroup className="p-2 mb-5 d-flex align-items-center">
+                    <GiftCard value="R$ 50,00" link="https://mpago.li/1t3PjHT"/>
+                    <GiftCard value="R$ 100,00" link="https://mpago.li/2AQQzBz"/>
+                    <GiftCard value="R$ 150,00" link="https://mpago.li/1yUP4RR"/>
+                    <GiftCard value="R$ 200,00" link="https://mpago.li/1i3uVw8"/>
+                    <GiftCard value="R$ 250,00" link="https://mpago.la/2czKMfB"/>
+                    <GiftCard value="R$ 300,00" link="https://mpago.la/1TcNxuN"/>
+                    <GiftCard value="R$ 400,00" link="https://mpago.li/2JTzoPb"/>
+                    <GiftCard value="Outro valor" link="http://link.mercadopago.com.br/dlcasorio"/>
+                </ListGroup>
+            </Container>
         </>
     );
 }
