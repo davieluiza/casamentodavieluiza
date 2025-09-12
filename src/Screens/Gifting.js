@@ -29,7 +29,7 @@ export default function Gifting() {
                     </em>
                 </SmText>
             </Container>
-            <ListGroup className="listGroup p-2 mb-5 p-lg-5 row-gap-1">
+            <ListGroup className="p-2 mb-5 d-flex align-items-center">
                 <GiftCard value="R$ 50,00" link="https://mpago.li/1t3PjHT"/>
                 <GiftCard value="R$ 100,00" link="https://mpago.li/2AQQzBz"/>
                 <GiftCard value="R$ 150,00" link="https://mpago.li/1yUP4RR"/>

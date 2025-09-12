@@ -2,15 +2,17 @@
     padding: 1rem;
     border: 1px solid #E91E63;
     border-radius: 1rem;
-    margin: 0;
+    margin: 1rem;
     width: 100%;
+    max-width: 500px;
     font-family: "Lora", sans-serif;
     font-weight: bold;
     text-decoration: none;
     color: #E91E63;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    gap: 0.5rem;
 }
 
 .btn-pink:hover {
