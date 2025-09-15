@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/casamentodavieluiza/static/css/main.3a113252.css",
-    "main.js": "/casamentodavieluiza/static/js/main.8c48e9b4.js",
+    "main.css": "/casamentodavieluiza/static/css/main.0608215a.css",
+    "main.js": "/casamentodavieluiza/static/js/main.69ed915a.js",
     "static/media/2.png": "/casamentodavieluiza/static/media/2.597a93b167980b97ffeb.png",
     "static/media/5.png": "/casamentodavieluiza/static/media/5.20b55a58022088a63f9d.png",
     "static/media/4.png": "/casamentodavieluiza/static/media/4.499fc4acd8ad59fa3233.png",
@@ -15,12 +15,13 @@
     "static/media/7.png": "/casamentodavieluiza/static/media/7.3ed0d694f6fd889ec248.png",
     "static/media/9.png": "/casamentodavieluiza/static/media/9.fb8908a6680edc090b72.png",
     "static/media/dl8.webp": "/casamentodavieluiza/static/media/dl8.5ea00094f0d8f0f774f6.webp",
+    "static/media/logo.png": "/casamentodavieluiza/static/media/logo.8943f01d1ea3f6aa3852.png",
     "index.html": "/casamentodavieluiza/index.html",
-    "main.3a113252.css.map": "/casamentodavieluiza/static/css/main.3a113252.css.map",
-    "main.8c48e9b4.js.map": "/casamentodavieluiza/static/js/main.8c48e9b4.js.map"
+    "main.0608215a.css.map": "/casamentodavieluiza/static/css/main.0608215a.css.map",
+    "main.69ed915a.js.map": "/casamentodavieluiza/static/js/main.69ed915a.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a113252.css",
-    "static/js/main.8c48e9b4.js"
+    "static/css/main.0608215a.css",
+    "static/js/main.69ed915a.js"
   ]
 }
