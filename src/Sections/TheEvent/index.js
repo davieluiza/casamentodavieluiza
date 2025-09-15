@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container, Button } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 import "./styles.css";
 import Title from "../../Components/Title";
 import Text from "../../Components/Text";

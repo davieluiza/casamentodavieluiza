@@ -8,14 +8,26 @@
     font-family: "Lora", sans-serif;
     font-weight: bold;
     text-decoration: none;
-    color: #E91E63;
+    color: #2E2E2E;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 0.5rem;
+
+}
+
+.image-card {
+    width: 100px;
+    border-radius: 1rem;
 }
 
 .btn-pink:hover {
     background-color: #a91849;
     color: white;
+    gap: 0.1rem
+}
+
+@media (max-width: 500px) {
+    .btn-pink {
+        gap: 0.1rem
+    }
 }
